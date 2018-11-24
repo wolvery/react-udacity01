@@ -106,7 +106,7 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <h2>Favorite Movies</h2>
-		<Profiles profiles={this.profiles} users={this.users} movies={this.movies}>
+		<Profiles profiles={profiles} users={users} movies={movies}/>
       </div>
     );
   }
